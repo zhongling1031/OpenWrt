@@ -166,9 +166,9 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         artifacts: ${{ env.FIRMWARE_PATH }}/*
         body: |
-          **This is Temporary Firmware for Armvirt 64**
+          **This is Temporary Firmware for IPQ60XX**
           ### 📒 固件信息
-          - 💻 这是 ARMv8 多功能版打包临时固件，不可直刷
+          - 💻 这是 IPQ60XX 打包临时固件，不可直刷
           - 🚀 直刷固件点击此处跳转➦[ARMv8_PLUS](https://github.com/haiibo/OpenWrt/releases/tag/ARMv8_PLUS)即可下载
           - ⚽ 固件源码: ${{ env.REPO_URL }}
           - 💝 源码分支: ${{ env.REPO_BRANCH }}
