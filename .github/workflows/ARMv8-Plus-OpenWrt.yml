@@ -1,4 +1,4 @@
-name: ARMv8 Plus OpenWrt
+name: OpenWrt-IPQ6000
 
 on:
   workflow_dispatch:
@@ -8,15 +8,15 @@ on:
 env:
   REPO_URL: https://github.com/breeze303/ipq6000-6.1-nss
   REPO_BRANCH: main
-  CONFIG_FILE: configs/armv8-plus.config
+  CONFIG_FILE: configs/ipq6000-6.1.config
   DIY_SCRIPT: diy-script.sh
   CLASH_KERNEL: arm64
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: ROOTFS_PLUS
+  FIRMWARE_TAG: IPQ6000
   OPENWRT_RELEASE: true
-  OPENWRT_TAG: ARMv8_PLUS
+  OPENWRT_TAG: ARMv8
   TZ: Asia/Shanghai
 
 jobs:
