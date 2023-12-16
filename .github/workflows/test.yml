@@ -6,7 +6,7 @@ on:
     - cron: 0 19 * * *
 
 env:
-  REPO_URL: https://github.com/breeze303/ipq6000-6.1-nss
+  REPO_URL: https://github.com/openwrt-dev/openwrt-ipq60xx
   REPO_BRANCH: main
   FEEDS_CONF: feeds/ipq6000-6.1.default
   CONFIG_FILE: configs/test.config
@@ -15,7 +15,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: IPQ6000-6.1-WIFI
+  FIRMWARE_TAG: TEST
   TZ: Asia/Shanghai
 
 jobs:
